@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        /*
         setContentView(R.layout.layout);
 
         LinearLayout r = findViewById(R.id.LinearLayout2);
@@ -26,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
             Tv.setTextColor(Color.BLACK);
             r.addView(Tv);
         }
+        */
+
+        setContentView(R.layout.layout2);
     }
 
 }
